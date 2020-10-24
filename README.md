@@ -2,8 +2,6 @@
 This is a chatbot developed by students of RVCE using ML and NLP.
 
 
-Just install App.exe file to enjoy our chatbot
-
 ###################################################
 
 To run the code: download full zip file and extract all files
