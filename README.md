@@ -25,8 +25,8 @@ python gui.py
 
 Developers:
 
-CHETHAN S           RVCE
+CHETHAN S          -----RVCE
 
-PRAJWAL K           RVCE
+PRAJWAL K         ----- RVCE
 
-VINAYKUMAR MOGER    RVCE
+VINAYKUMAR MOGER   -----RVCE
