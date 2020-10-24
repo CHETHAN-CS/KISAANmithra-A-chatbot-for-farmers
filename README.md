@@ -18,6 +18,11 @@ pip install tflearn
 
 python gui.py
 
+# if any modules are missing in your environment please install them using pip command
+
+# ex:  pip install "module name"
+
+
 ##############################################
 
 
