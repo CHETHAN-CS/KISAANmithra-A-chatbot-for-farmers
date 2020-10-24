@@ -1,0 +1,264 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {
+            "tag":"Banana",
+            "patterns":["Banana plant protection","banana plant protection using rhyzome treatement"],
+            "responses":["inject 10 ml. Carbendazim 50 Wdiv. solution (20 g. in a lit. water) and plug the hole with mud. Repeat the injuction at bimonthly intervals."]
+        },
+        {
+            "tag":"Tomato_plant_protection",
+            "patterns":["Tomato plant protection"],
+            "responses":["Spray 0.3 ml. Imidachloprid 17.8 SL. or 2.0 ml. Triazophos 40 EC/lit. water."]
+        },
+        {
+            "tag":"chillies_plant_protection",
+            "patterns":["chillies plant protection"],
+            "responses":["Spray 1.0 g. Carbendazim.\nOR\n1.0 g. Benomyl/lit. water 200 lit. spray solution required/acre/spray."]
+        },
+        {
+            "tag":"Paddy",
+            "patterns":["nutrient management in paddy","about nutrient management in paddy","how to manage nutrient in paddy"],
+            "responses":["Recommended to apply:-potassium fertilizers at the time of panicle initiation in paddy","recomended to urea application to field also apply zinc 10kg/acre"]
+        },
+        {
+            "tag":"market_information",
+            "patterns":["about market information","can you tell me about current market","give info about market"],
+            "responses":["For Krishi Market information please contact - 1800 425 1552"]
+        },
+        {
+            "tag":"Bitter_Gourd",
+            "patterns":["How do i protect Bitter Gourd","protection for bittergourd","methods to protect bitter gourd"],
+            "responses":["1) Farm yard manure : 10 tons/acre \n 2)Chemical fertilizers (kg/acre): N : P : K : 25: 20: 20 \n 3)Top dressing: Apply 50% of N 4 weeks after transplanting and earth up the crodiv."]
+        },
+        {
+            "tag":"Tomato_disease",
+            "patterns":["how do i control wilt disease in tomato","how to control wilt disease in tomato","tell me about how to control of wilt disease in tomato"],
+            "responses":["Recommended to drench 0.5 g Streptocyclene + 3.0 g. Copper oxychloride in a lit. water to the base of the affected plants."]
+        },
+        {
+            "tag":"Ginger",
+            "patterns":["control of rhizome rot in ginger","rhizome rot in ginger","how to control rhizome rot in ginger","how to protect ginger from rhizome rot"],
+            "responses":["Recommended to spray 2.0 g. Metalaxyl - MZ 72Wdiv. in a lit. water to control rhizome rot in ginger."]
+        },
+        {
+            "tag":"Cowpea",
+            "patterns":["bud borer in cowpea","how to control bud borer in cowpea"],
+            "responses":["Recommended to spray dichlorovas 2 mili per liter of water"]
+        },
+        {
+            "tag":"paddy_disease",
+            "patterns":["Paddy blast disease and pest","how to control Paddy blast disease and pest"],
+            "responses":["Spray 2.0 g. Mancozeb 75 WP OR 3.0 g. Copper oxychloride 50 WP. in a lit. of water.Quinalphos 1.5 D."]
+        },
+        {
+            "tag":"Maize",
+            "patterns":["about  varieties of maize","varieties of maize"],
+            "responses":["1)DHM 109    2)Pusa Hybrid -1    3)Pusa Hybrid- 2   4)Renuka"]
+        },
+        {
+            "tag":"Brinjal_cultivation",
+            "patterns":["Brinjal cultivation","how to grow brinjal","steps for Brinjal cultivation"],
+            "responses":["In Brinjal cultivation spacing is 30-45 cm between plants and 60 cm between rows,Seed requirement 2-5 g seeds per 10 sq mt Harvesting shuold be done after 3-4 months"]
+        },
+        {
+            "tag":"Maize_types",
+            "patterns":["what are the varieties of maize","types of maize","different maize Crops"],
+            "responses":["varieties of maize 1)DHM 109    2)Pusa Hybrid -1    3)Pusa Hybrid- 2   4)Renuka ."]
+        },
+        {
+            "tag":"Cabbage_types",
+            "patterns":["what are the varieties of Cabbage","types of Cabbage","different Cabbage Crops"],
+            "responses":["varieties of Cabbage : Early variety: Early snow ball, Arka Vimal, Arka Sproothi -Medium variety: Snow Ball,-Late variety: Late Snow Ball."]
+        },
+        {
+            "tag":"Red_soil",
+            "patterns":["what crops i can grow in my red soil","what are the best crops in red soil","crops suitable for red soil"],
+            "responses":["crops suitable in red soil : cotton,wheat,rice,pulses,millets,tobacco,oilseeds,potatoes,fruits,groundnut, maize, soyabean, greengram, redgram, jute,tea, coca,grapes,papaya and mango."]
+        },
+        {
+            "tag":"Black_soil",
+            "patterns":["what crops i can grow in my Black soil","what are the best crops in black soil","crops suitable for black soil"],
+            "responses":["crops suitable in black soil : Certain crops include maize, Jowar, millets, linseed, tobacco, safflower, sugar cane, vegetables, and so on like coconut, cashew, and casuarinas in high-rainfall areas."]
+        },
+        {
+            "tag":"Summer_plants",
+            "patterns":["what are plants i can grow in summer","summer season plants","summer season crops"],
+            "responses":["Some warm-season crops: Beans, Celery (cold climates),Corn,Cucumbers,Edamame,Eggplant,Muskmelons,Okra,Peppers,Pumpkins,Squash,Sweet potato (needs long, hot, frost-free season),Tomato,Watermelon."]
+        },
+        {
+            "tag":"rainy_plants",
+            "patterns":["what are plants i can grow in rainy season","rainy season plants","rainy season crops"],
+            "responses":["Some rainy season crops are rice, wheat,banana."]
+        },
+        {
+            "tag":"Seed_treatment",
+            "patterns":["what is Seed treatment","how to do Seed treatment","Seed treatment"],
+            "responses":["Treat the seeds @ 4 g. Carbendazim 50 WP. or Tricyclazole 75 WP. @ 0.6 g./kg. seed."]
+        },
+        {
+            "tag":"Loan_benefits",
+            "patterns":["what are the Benefits of taking agricultural loan","Benefits of agriculttre loan","interest rate in agricultural loan","when should i repay my loan"],
+            "responses":[" Available with minimal documentation,Special Interest rates starting at 7.50% per anum May be lower for specified Government backed schemes","You can repay the loan over flexible repayment tenure","Some lenders also offer unsecured agricultural loan depending on the applicant’s profile and the quantum of loan applied for","You can use the agricultural loan amount for a variety of agricultural purposes, ranging from short-term seasonal farm activities to long-term investment in farm machinery."]
+        },
+        {
+            "tag":"locust_attack",
+            "patterns":["how to control locust attack","how to prevent locust attack","locust attack"],
+            "responses":["To control the locust attack : use Need Seed kernel powder with Datura plant immature seed bolls and flower. Make a solution by mixing both Neem Seed Kernel and Datura plant (Datura stramonium) parts to effective and maximise Locust control."]
+        },
+        {
+            "tag":"Stem_borer",
+            "patterns":["how to control Stem borer","how to prevent Stem borer","Stem borer"],
+            "responses":["Stem borer in citrus-Inject 5.0 ml. DDVP 76 EC. as 2-3 mili per liter of water and plug the hole with wet earth."]
+        },
+        {
+            "tag":"Horticulture_helpline",
+            "patterns":["what is the Horticulture helpline","Horticulture helpline number","can i get the Horticulture helpline"],
+            "responses":["Horticulture Helpline >080-22742103 , GKVK Helpline >080-23625411"]
+        },
+        {
+            "tag":"Fishery_Deparment",
+            "patterns":["what is the Fishery_Deparment helpline","Fishery_Deparment helpline number","can i get the Fishery_Deparment helpline"],
+            "responses":["contact Fishery Deparment: 080-22864604 ,No.891, Agnihamsa Link Road, Kuvempunagar, Mysore - 570023, Post office road, mobile no.: 8212541424 Toll Free Helpline Number: 1800-425-1660"]
+        },
+        {
+            "tag":"banana_harvest",
+            "patterns":["how to harvest banana","when to cut down the bananas","banana Harvesting"],
+            "responses":["Bananas are ready to be picked when they look well rounded with ribs, and the little flowers at the end are dry and rub off easily. You can pick them now, green, and they will start ripening as soon as you pick them, no matter their size."]
+        },
+        {
+            "tag":"preserve_banana",
+            "patterns":["how to preserve bananas","how to safeguard banana","how to preserve bananas for long time"],
+            "responses":["You can preserve bananas for use in cooking and baking by peeling and freezing them. Or, to preserve them for eating, peel, split in half lengthwise and dry them."]
+        },
+        {
+            "tag":"less_water",
+            "patterns":["can i grow crops with less water","what are the crops i can grow with less water","crops which need very less water"],
+            "responses":["With less water we can grow sorghum and 5 types of millet (pearl millet, foxtail, proso, finger and little). All are suitable for growth in drought conditions. Other commercial non-grain crops suitable for drylands include cassava, sweet potatoes, various beans and peanuts."]
+        },
+        {
+            "tag":"loan_link",
+            "patterns":["what is link to apply for agricultural loan","where i can apply for loan","apply for agricultural loan"],
+            "responses":["please follow this link to apply for agricultural loan: https://sbi.co.in/web/agri-rural/agriculture-banking/crop-loan, or https://www.icicibank.com/rural/loans/farmer-finance/index.page., you can get instructions here:https://www.bankbazaar.com/personal-loan/agriculture-loan.html."]
+        },
+        {
+            "tag":"irrigation_frequency",
+            "patterns":["how frequently i must irrigate my crop","how frequently i must irrigate rice Crop","how frequently i must irrigate Wheat Crop"],
+            "responses":["if it is rainy season you can irrigate your crop twice a month, if it is summer you must irrigate at least 4 times a month."]
+        },
+        {
+            "tag":"weed",
+            "patterns":["how to remove weed","how can i remove weeds ","weedicides to remove weeds","how to remove waste Plants"],
+            "responses":["please spray 2,4-d ethylester or neem extact or glyphosote"]
+        },
+        {
+            "tag":"irrigation_techniques",
+            "patterns":["what are the irrigation techniques i can adopt to get good yeild","which is the best irrigation technique","types of irrigation"],
+            "responses":["There are mainy two types of irrigation techniqus\n 1) drip irrigation : suitable for long term crops like mango, coconut, Brinjal and banana. \n 2) sprinkler irrigation : suitable for short term crops like raagi,wheat and onion"]
+        },
+        {
+            "tag":"Bitter_Gourd",
+            "patterns":["How do i protect Bitter Gourd","protection for bittergourd","methods to protect bitter gourd","what is the best fertilizer for Bitter Gourd"],
+            "responses":["1) Farm yard manure : 10 tons/acre \n 2)Chemical fertilizers (kg/acre): N : P : K : 25: 20: 20 \n 3)Top dressing: Apply 50% of N 4 weeks after transplanting and earth up the crodiv.","Generally well decomposed FYM (15-20 t/ha) is mixed with the soil during ploughing. The recommended dose of fertilizer to be applied per hectare is 50-100 kg N, 40-60 kg P2O5 and 30-60 kg 25 K2O. Half the N and entire P & K should be applied before planting."]
+        },
+        {
+            "tag":"Tomato_disease",
+            "patterns":["how do i control wilt disease in tomato","how to control wilt disease in tomato","tell me about how to control of wilt disease in tomato"],
+            "responses":["Recommended to drench 0.5 g Streptocyclene + 3.0 g. Copper oxychloride in a lit. water to the base of the affected plants."]
+        },
+        {
+            "tag":"Ginger",
+            "patterns":["control of rhizome rot in ginger","rhizome rot in ginger","how to control rhizome rot in ginger","how to protect ginger from rhizome rot"],
+            "responses":["Recommended to spray 2.0 g. Metalaxyl - MZ 72Wdiv. in a lit. water to control rhizome rot in ginger."]
+        },
+        {
+            "tag":"Cowpea",
+            "patterns":["bud borer in cowpea","how to control bud borer in cowpea"],
+            "responses":["Recommended to spray dichlorovas 2 mili per liter of water"]
+        },
+        {
+            "tag":"paddy_disease",
+            "patterns":["Paddy blast disease and pest","how to control Paddy blast disease and pest"],
+            "responses":["Spray 2.0 g. Mancozeb 75 WP OR 3.0 g. Copper oxychloride 50 WP. in a lit. of water.Quinalphos 1.5 D."]
+        },
+        {
+            "tag":"Paddy (Dhan)",
+            "patterns":[" Yellowing of leaf margin followed by drying of hills in circular fashion.","disease in paddy plant"],
+            "responses":["Spray any one of the following insecticides per litre of water 1)Imidacloprid 17.8 SL.- 0.5 ml. or 2)Chlorpyriphos 20 EC.- 2.0 ml.","Recommended to spray :- Phosalone 35 EC. - 2.0 ml/lit to control case worm infestation in paddy."]
+        },
+        {
+            "tag":"Brinjal",
+            "patterns":["how to protect brinjal plant"],
+            "responses":["Seed treatment with 4 g of Trichoderma viride formulation per kg seed will help in reducing the disease.Spraying with Mancozeb @ 2g/Litre of water.Collection and destruction of diseased parts and portions of the plant."]
+        },
+        {
+            "tag":"Brinjal",
+            "patterns":["how to protect brinjal plant"],
+            "responses":["Seed treatment with 4 g of Trichoderma viride formulation per kg seed will help in reducing the disease.Spraying with Mancozeb @ 2g/Litre of water.Collection and destruction of diseased parts and portions of the plant."]
+        },
+        {
+            "tag":"helpline",
+            "patterns":["Krishi marata vahini number","farmer helpline","kisaan helpline"],
+            "responses":["Krishi marata vahini number-18004251552","kisaan helpline number-18001801551"]
+        },
+        {
+            "tag":"Cabbage",
+            "patterns":["about  varieties of Cabbage","varieties of Cabbage"],
+            "responses":["Early variety: Early snow ball, Arka Vimal, Arka Sproothi.\n Medium variety: Snow Ball.\n Late variety: Late Snow Ball"]
+        },
+        {
+            "tag":"Rajma",
+            "patterns":["FLOWERING STAGE OF RAJMA WHICH PESTICIDE SHOULD BE SPRAYED","how to protect rajma"],
+            "responses":["SPRAY MULTIPLEX TONIC 2 ML PER LITER OF WATER"]
+        },
+        {
+            "tag":"thanks",
+            "patterns":["thanks","Thank you","thanks for your help"],
+            "responses":["glad,i helped you","welcome"]
+        },
+        {
+            "tag":"loan",
+            "patterns":["what are loan plan for farmers","can i get loan to grow fruits,flowers","can i get loan from banks"],
+            "responses":["1)State Bank of India (SBI) gives : Crop Loan,Kisan Credit Card (KCC),Drip Irrigation Loan,Combine Harvestor.\n 2)ICICI Bank gives:  Retail Agricultural Loan,Long Term Agricultural Loan.-Central Bank of India gives : Cent Kisan Tatkal Scheme,Cent Vermicompost Scheme,Cent Solar Water Heater Scheme,Kisan Credit Card.\n 3)Union Bank gives : Crop Loan,Union Gold Loan,Kisan Credit Card,Bio Gas Loan,Farm Mechanization Loan.\n 4)Axis Bank gives: Kisan Power,Kisan Matsya,Kisan Mitra,AGPRO Power.\n 5)National Bank or Agriculture and Rural Development (NABARD) has : Agriclinic and Agribusiness Centres Scheme,National Livestock Mission,New Agricultural Marketing Infrastructure for more information please contact kisan helpline or visit :https://www.paisabazaar.com/personal-loan/agriculture-loan/"]
+
+        },
+        {
+            "tag":"Paddy_price",
+            "patterns":["what is price of paddy","price of paddy common","paddy marcket price"],
+            "responses":["price of Paddy (Common) is Rs 1868 per quintal.","price of Paddy (Grade 'A') is Rs 1888 per quintal."]
+        },
+        {
+            "tag":"Wheat_price",
+            "patterns":["what is price of Wheat","price of Wheat top Quality","Wheat marcket price"],
+            "responses":["price of Wheat Quality=Normal in National mandi is INR 2090 per Quintal.","price of Wheat Quality =Top in National Mandi is INR 2280 per Quintal."]
+        },
+        {
+            "tag":"Rice_price",
+            "patterns":["what is price of rice","price of rice top Quality","rice marcket price"],
+            "responses":["price of rice Quality=Normal in National mandi is INR 1890 per Quintal.","price of rice Quality =Top in National Mandi is INR 2180 per Quintal."]
+        },
+        {
+            "tag":"Bajra_price",
+            "patterns":["what is price of bajra","price of Bajra top Quality","Bajra marcket price"],
+            "responses":["price of Bajra in National Mandi is INR 2290 per Quintal."]
+        },
+        {
+            "tag":"Jowar_price",
+            "patterns":["what is price of jowar","price of jowar top Quality","Jowar marcket price"],
+            "responses":["price of Jowar in National Mandi is INR 3350 per Quintal.","price of Jowar Premium in National Mandi is INR 2350 per Quintal."]
+        },
+        {
+            "tag":"maize_price",
+            "patterns":["what is price of maize","price of Maize top Quality","Jowar marcket price","price of Makka"],
+            "responses":["price of Maize (Makka) in National Mandi is INR 2350 per Quintal."]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["bye","goodbye","see you"],
+            "responses":["bye","see you soon","visit again"]
+        }
+   ]
+}
